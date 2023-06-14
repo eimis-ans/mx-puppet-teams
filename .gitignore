@@ -1,7 +1,8 @@
-config.yaml
+data/config.yaml
 node_modules
 build
 *.db
 bridge.log.*
 *-audit.json
 msteams-registration.yaml
+.idea

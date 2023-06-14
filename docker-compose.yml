@@ -1,0 +1,7 @@
+services:
+  teams-bridge:
+    image: neilsb/mx-puppet-teams
+    ports:
+      - "8432:8432"
+    volumes:
+      - ./data:/data
