@@ -121,6 +121,8 @@ export class AuthProvider {
 				{ url: tokenRequestUrl, form: tokenRequestBody },
 				(err, httpResponse, body) => {
 					if (!err) {
+						log.verbose(`response from ${tokenRequestUrl} : `);
+						log.verbose(JSON.parse(body));
 						let code = Math.random().toString(26).substr(2, 6);
 
 						if (AuthProvider.tmpTokenStore[code] === undefined) {
@@ -164,11 +166,12 @@ export class AuthProvider {
 			retData.error = `The Auth code '${str.trim()}' is invalid, or has expired.`;
 			return retData;
 		}
-
-		const token = AuthProvider.tmpTokenStore[str.trim()]
+		log.verbose(`Content of tmpTokenStore : `);
+		log.verbose(AuthProvider.tmpTokenStore[str.trim()]);
+		const token = AuthProvider.tmpTokenStore[str.trim()];
 
 		// Check that token has required Scopes
-		const scopes = token.scope.toLowerCase().split(" ");
+		const scopes = token.scope.toLowerCase();
 		if (!(scopes.includes("chat.readwrite") && scopes.includes("chatmessage.read") && scopes.includes("user.read"))) {
 			retData.error = `The received token for auth code '${str.trim()}' does not include the required scopes (Chat.ReadWrite, ChatMessage.Read and ChatMessage.Send).  Please check your Azure Application setup.`;
 			return retData;
