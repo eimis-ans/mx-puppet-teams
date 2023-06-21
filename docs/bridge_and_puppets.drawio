@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T15:07:15.898Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="N2o9v3CP4TWnGlqprzd7" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T15:08:54.765Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="jUoyB7MdPJq7DGRSK0I5" version="21.5.0" type="github">
   <diagram name="Page-1" id="5Jhk13OeAjeZEkBotTxT">
     <mxGraphModel dx="1434" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,8 +51,8 @@
             <mxPoint x="350" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3dXYUPCKLj7_gHWv4Jhe-16" value="&lt;div align=&quot;left&quot;&gt;How it works : &lt;br&gt;1- The bridge is linked to Teams&amp;nbsp; by Marcel with his credentials : it gets his token&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2- During the linking process, the bridge search for existing chats in teams and creates the corresponding puppets in matrix&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;So Marcel can talk to Alex or Adèle in Teams or in Matrix&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="635" width="670" height="90" as="geometry" />
+        <mxCell id="3dXYUPCKLj7_gHWv4Jhe-16" value="&lt;div align=&quot;left&quot;&gt;How it works : &lt;br&gt;1- The bridge is linked to Teams&amp;nbsp; by Marcel with his credentials : it gets his token&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2- During the linking process, the bridge search for existing chats in teams and creates the corresponding puppets and rooms in matrix&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;So Marcel can talk to Alex or Adèle in Teams or in Matrix&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="79" y="635" width="730" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3dXYUPCKLj7_gHWv4Jhe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4C0099;strokeWidth=2;startArrow=classic;startFill=1;" edge="1" parent="1" source="k5lb1gU79Tcg0jyvRi9l-1" target="k5lb1gU79Tcg0jyvRi9l-6">
           <mxGeometry relative="1" as="geometry">
@@ -66,8 +66,8 @@
             <mxPoint x="243.5" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3dXYUPCKLj7_gHWv4Jhe-19" value="&lt;div align=&quot;left&quot;&gt;What can not be done so far :&lt;br&gt;Romain or Virginie can not talk to Adèle or Alex&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="755" width="270" height="60" as="geometry" />
+        <mxCell id="3dXYUPCKLj7_gHWv4Jhe-19" value="&lt;div align=&quot;left&quot;&gt;What can not be done so far :&lt;br&gt;Virginie can not talk to Adèle nor inversely&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="79" y="760" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
