@@ -25,7 +25,7 @@ jobs:
           # list of Docker images to use as base name for tags
           images: |
             eimisans/mx-puppet-teams
-            ghcr.io/eimis-ans/mx-puppet-teams
+#            ghcr.io/eimis-ans/mx-puppet-teams
           # generate Docker tags based on the following events/attributes
           tags: |
             type=schedule
