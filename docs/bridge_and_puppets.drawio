@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2023-06-21T14:32:59.727Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="GBF_pSSqcIO6hG82kZTb" version="21.5.0">
+  <diagram name="Page-1" id="5Jhk13OeAjeZEkBotTxT">
+    <mxGraphModel dx="1434" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k5lb1gU79Tcg0jyvRi9l-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k5lb1gU79Tcg0jyvRi9l-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k5lb1gU79Tcg0jyvRi9l-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k5lb1gU79Tcg0jyvRi9l-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k5lb1gU79Tcg0jyvRi9l-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k5lb1gU79Tcg0jyvRi9l-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
